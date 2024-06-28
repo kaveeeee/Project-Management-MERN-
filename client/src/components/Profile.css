@@ -1,0 +1,73 @@
+/* Profile.css */
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 70px;
+}
+
+.jumbotron {
+    background-color: #f0f0f0; /* Background color for the profile section */
+    padding: 20px;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.form-container1 {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.form-container1 form {
+    width: 100%; /* Adjust form width as needed */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+table td {
+    padding: 10px;
+}
+
+h1 {
+    background-color: #3498db; /* Background color for the h1 tag */
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0; /* Reset default margin */
+}
+
+button {
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.input-container1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust spacing between input pairs */
+    margin-right: 180px;
+    margin-left: 50px;
+}
+
+.input-container1 label {
+    width: 120px; /* Adjust label width as needed */
+    margin-right: 10px; /* Adjust spacing between label and input */
+}
+
+.input-container1 input {
+    flex: 1; /* Allow input to take remaining space */
+    border: 1px solid #ccc; /* Set border color */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 8px; /* Add padding */
+    transition: border-color 0.3s; /* Add transition for smooth color change */
+    margin-left: 60px;
+}

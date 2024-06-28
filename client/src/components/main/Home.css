@@ -1,0 +1,33 @@
+/* Home.css */
+.container {
+    display: flex; /* Use flexbox for layout */
+    height: 80vh; /* Set height to 80% of the viewport height */
+    margin-top: 20px;
+  }
+  
+  .left {
+    flex: 1; /* Take up 50% of the container width */
+    margin-right: 20px; /* Add right margin for spacing */
+    border-radius: 10px; /* Add rounded corners */
+    overflow: hidden; /* Ensure content inside does not overflow */
+    border: 1px solid black; /* Add border with black color */
+  }
+  
+  .right {
+    flex: 1; /* Take up 50% of the container width */
+    margin-left: 20px; /* Add left margin for spacing */
+    border-radius: 10px; /* Add rounded corners */
+    overflow: hidden; /* Ensure content inside does not overflow */
+    border: 1px solid black; /* Add border with black color */
+  }
+  
+  img {
+    max-width: 100%; /* Ensure image does not exceed container width */
+    max-height: 100%; /* Ensure image does not exceed container height */
+    display: block; /* Remove extra spacing below the image */
+  }
+  
+  p {
+    margin-top: 20px; /* Add top margin for paragraphs */
+  }
+  
